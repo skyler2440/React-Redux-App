@@ -13,7 +13,7 @@ console.log("TCL: JokeList props", props)
       <h1>Cheesy Dad Joke</h1>
       <button onClick={props.getData}>
         {props.isLoading ? (
-          <Loader type="tailspin" color="#00BFFF" height='15' width="100" />
+          <Loader type="Puff" color="green" height={10} width={80} />
         ) : (
           'Have a Laugh on Dad'
         )}

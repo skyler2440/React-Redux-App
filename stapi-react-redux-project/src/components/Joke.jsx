@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Joke.scss'
 const Joke = props => {
 console.log("TCL: Joke props", props)
   return (
